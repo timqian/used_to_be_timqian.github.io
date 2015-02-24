@@ -1,1 +1,5 @@
-markdown: kramdown
+markdown: rdiscount
+permalink: /:year/:month/:title/
+author: Tim
+highlighter: pygments
+paginate: 24
