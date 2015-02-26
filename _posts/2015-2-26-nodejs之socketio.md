@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nodejs之socket.io(3)
+title: Nodejs之初始socket.io(3)
 categories: 
 - 技术
 tags:
@@ -66,5 +66,3 @@ tags:
 *第一行将socket.io 库包含进来；当客户端网页来自同一服务器，只要有这一行，socket.io库会自动为你提供包括连接，发送/接收消息所需的所有代码。*(Really?? not sure。。)
 
 `var socket = io.connect()` 用以将网页与服务器连接起来，而该事件可以被服务器监听到。
-
-##
