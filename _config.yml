@@ -10,16 +10,16 @@ url:         "http://www.timqian.com"
 google_analytics: timqian92@gmail.com
 
 # Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  true
+animated:           true
+show_related_posts: true
+show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: timqian
 
 # Social icons
-show_social_icons: true
+show_social_icons: false
 github_username: timqian
 stackoverflow_id:
 twitter_username:
