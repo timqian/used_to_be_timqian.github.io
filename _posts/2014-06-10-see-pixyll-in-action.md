@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      Pixyll in Action
+title:      中文测试
 date:       2014-06-10 12:31:19
 summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: jekyll pixyll
 ---
 
+不知道写中文会如何
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.
 
