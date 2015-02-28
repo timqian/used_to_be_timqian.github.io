@@ -1,29 +1,29 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
+title:       Tim's world
+email:       timqian92@qq.com
 author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "My personal blog"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://www.timqian.com"
 
 # Google analytics
-google_analytics:
+google_analytics: timqian92@gmail.com
 
 # Optional features
 animated:           false
 show_related_posts: false
-show_post_footers:  false
+show_post_footers:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: timqian
 
 # Social icons
-show_social_icons: false
-github_username:
+show_social_icons: true
+github_username: timqian
 stackoverflow_id:
 twitter_username:
-google_plus_id:
+google_plus_id: timqian92@gmail.com
 linkedin_username:
 bitcoin_url:
 paypal_url:
