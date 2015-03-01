@@ -1,39 +1,46 @@
-# Site settings
-title:       Tim's world
-email:       timqian92@qq.com
-author:      Tim Qian
-description: "My personal blog"
-baseurl:     ""
-url:         "http://www.timqian.com"
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "username.github.io" # the base hostname & protocol for your site.
+title: "username-blog"
 
-# Google analytics
-google_analytics: UA-56506279-1
 
-# Optional features
-animated:           true
-show_related_posts: true
-show_post_footers:  false
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname: timqian
 
-# Social icons
-show_social_icons: false
-github_username: timqian
-stackoverflow_id:
-twitter_username:
-google_plus_id: timqian92@gmail.com
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+#contacts
+git: "https://github.com/railsr"  #Add your github url here.
+stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
+twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
 
-# Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     3
-sass:
-  compressed: true
+#disqus comment
+disqus:
+    shortname: "test" #replace with your disqus comment short name
+
+#google analytics
+google:
+    tracking-id: "" #paste your tracking id here
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
